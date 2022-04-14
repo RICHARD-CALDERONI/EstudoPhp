@@ -1,7 +1,7 @@
 <?php
-$i=3; // inicialização do contador;
-while ($i > 0) {
+$i=0; // inicialização do contador;
+while ($i <= 10) {
 echo $i . "<br> ";
-$i--;
+$i=$i+2;
 }
 ?>
